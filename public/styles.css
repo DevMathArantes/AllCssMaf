@@ -1,0 +1,56 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/*Estilos*/
+@import url(styles/header.css);
+@import url(styles/main.css);
+@import url(styles/footer.css);
+
+/*Variáveis*/
+:root{
+
+    /*Cores*/
+
+    --branco: #ffffff;
+    --preto: #000000;
+
+    --principal: #1b1b1b;
+    --principalEscura: #0a0a0a;
+    --principalClara: #2b2b2b;
+    --gradientePrincipal: linear-gradient(to bottom, var(--principalEscura), var(--principal));
+
+    /*Fonts*/
+    --fontEspecial: "Montserrat", sans-serif;
+    --fontTitulos: "Krona One", sans-serif;
+    --fontPadrao: "Nunito Sans", sans-serif;
+
+}
+
+/*Regras*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--fontTitulos);
+}
+p, input, select, li{
+    font-family: var(--fontPadrao);
+}
+a, span, button, label{
+    font-family: var(--fontEspecial);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    object-fit: cover; 
+    object-position: center;
+}

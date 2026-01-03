@@ -1,0 +1,19 @@
+{
+    "name": "matheus/all-css-maf",
+    "description": "Pacote de estilos universais para facilitar o desenvolvimento front end",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SRC//": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "devMathArantes",
+            "email": "matheusoficial1411@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

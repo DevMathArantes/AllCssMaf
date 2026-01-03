@@ -1,0 +1,16 @@
+/*Divisão completando a página*/
+.pagina{
+    height: 100vh;
+    width: 100%;
+}
+
+/*Centralizar elementos-filho*/
+.centraliza{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 724px){
+    
+}

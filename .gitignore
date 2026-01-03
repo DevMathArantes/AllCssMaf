@@ -1,0 +1,4 @@
+vendor/,
+public/index.html,
+public/assets/,
+src/script.js
