@@ -6,7 +6,7 @@
     align-items: center;
     gap: 1em;
     opacity: 0;
-    animation: aparecer 0.5s ease-out forwards;
+    animation: aparecer 0.3s ease-out forwards;
 }
 .nav1 h1{
     margin: 0;
@@ -41,6 +41,7 @@
 
     .nav1{
         padding: 1em;
+        gap: 0.5em;
     }
     .nav1 h1{
         font-size: 1rem;
@@ -53,6 +54,10 @@
     }
     .nav1 .linkPrincipal span{
         display: none;
+    }
+    .nav1 img{
+        width: 1.5em;
+        height: 1.5em;
     }
 
 }

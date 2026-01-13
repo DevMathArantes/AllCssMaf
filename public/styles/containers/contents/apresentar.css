@@ -6,7 +6,7 @@
     margin: auto 0;
     gap: 1em;
     opacity: 0;
-    animation: aparecer 1s ease-out forwards;
+    animation: aparecer 0.7s ease-out forwards;
 }
 .apresentar h2{
     font-weight: 400;
@@ -34,6 +34,9 @@
     background-color: var(--principalClara);
     transition: 1s;
 }
+.apresentar img{
+    width: 10em;
+}
 .apresentar a{
     color: var(--branco);
     gap: 1em;
@@ -57,7 +60,7 @@
         font-size: 1.3rem;
     }
     .apresentar img{
-        width: 3em;
+        width: 4em;
     }
     .apresentar p{
         font-size: 1rem;

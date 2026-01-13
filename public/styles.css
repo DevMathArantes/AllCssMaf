@@ -18,7 +18,7 @@
 
     --principal: #1b1b1b;
     --principalEscura: #0a0a0a;
-    --principalClara: #ff0000;
+    --principalClara: #5e5e5e;
     --gradientePrincipal: linear-gradient(to bottom, var(--principalEscura), var(--principal));
 
     /*Fonts*/
