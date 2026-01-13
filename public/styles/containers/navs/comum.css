@@ -1,0 +1,58 @@
+/*Nav para título + 2 links*/
+.nav1{
+    color: var(--branco);
+    padding: 1em 3em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    opacity: 0;
+    animation: aparecer 0.5s ease-out forwards;
+}
+.nav1 h1{
+    margin: 0;
+    font-weight: 400;
+    margin-right: auto;
+}
+.nav1 img{
+    width: 2em;
+    height: 2em;
+}
+.nav1 .linkPrincipal{
+    gap: 0.5em;
+    border: 2px solid var(--branco);
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    margin-left: 2em;
+    transition: 1s;
+}
+.nav1 .linkPrincipal:hover{
+    transition: 1s;
+    background-color: var(--principalClara);
+}
+.nav1 .linkPrincipal img{
+    width: 1.5em;
+    height: 1.5em;
+}
+.nav1 a{
+    color: var(--branco);
+}
+
+@media screen and (max-width: 724px){
+
+    .nav1{
+        padding: 1em;
+    }
+    .nav1 h1{
+        font-size: 1rem;
+    }
+    .nav1 .linkPrincipal{
+        width: 1.5em;
+        border: none;
+        padding: 0;
+        margin-left: 1em;
+    }
+    .nav1 .linkPrincipal span{
+        display: none;
+    }
+
+}

@@ -2,6 +2,11 @@
 .pagina{
     height: 100vh;
     width: 100%;
+    background-image: url(../../assets/images/fundoPagUn.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Centralizar elementos-filho*/
