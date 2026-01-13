@@ -1,11 +1,11 @@
 {
     "name": "matheus14112003/all-css-maf",
     "description": "Pacote de estilos universais para facilitar o desenvolvimento front end",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SRC//": "src/"
+            "Matheus\\AllCssMaf\\": "src/"
         }
     },
     "authors": [
