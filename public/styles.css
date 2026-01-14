@@ -15,11 +15,12 @@
 
     --branco: #ffffff;
     --preto: #000000;
+    --cinza: #808080; 
 
-    --principal: #1b1b1b;
-    --principalEscura: #0a0a0a;
+    --principal: #313131;
+    --principalEscura: #1a1a1a;
     --principalClara: #5e5e5e;
-    --gradientePrincipal: linear-gradient(to bottom, var(--principalEscura), var(--principal));
+    --gradientePrincipal: linear-gradient(to bottom, var(--principal), var(--principalEscura));
 
     /*Fonts*/
     --fontEspecial: "Montserrat", sans-serif;

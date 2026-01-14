@@ -1,5 +1,5 @@
 /*Nav para título + 2 links*/
-.nav1{
+.navComum{
     color: var(--branco);
     padding: 1em 3em;
     display: flex;
@@ -8,16 +8,16 @@
     opacity: 0;
     animation: aparecer 0.3s ease-out forwards;
 }
-.nav1 h1{
+.navComum h1{
     margin: 0;
     font-weight: 400;
     margin-right: auto;
 }
-.nav1 img{
+.navComum img{
     width: 2em;
     height: 2em;
 }
-.nav1 .linkPrincipal{
+.navComum .linkPrincipal{
     gap: 0.5em;
     border: 2px solid var(--branco);
     padding: 0.5em 2em;
@@ -25,39 +25,55 @@
     margin-left: 2em;
     transition: 1s;
 }
-.nav1 .linkPrincipal:hover{
+.navComum .linkPrincipal:hover{
     transition: 1s;
     background-color: var(--principalClara);
 }
-.nav1 .linkPrincipal img{
+.navComum .linkPrincipal img{
     width: 1.5em;
     height: 1.5em;
 }
-.nav1 a{
+.navComum a{
     color: var(--branco);
 }
 
 @media screen and (max-width: 724px){
 
-    .nav1{
+    .navComum{
         padding: 1em;
         gap: 0.5em;
     }
-    .nav1 h1{
+    .navComum h1{
         font-size: 1rem;
     }
-    .nav1 .linkPrincipal{
+    .navComum .linkPrincipal{
         width: 1.5em;
         border: none;
         padding: 0;
         margin-left: 1em;
     }
-    .nav1 .linkPrincipal span{
+    .navComum .linkPrincipal span{
         display: none;
     }
-    .nav1 img{
+    .navComum img{
         width: 1.5em;
         height: 1.5em;
     }
 
 }
+
+/*
+
+Exemplo de HTML
+
+<nav class="nav1">
+    <img src="assets/icons/logo.png" alt="logo ACM">
+    <h1 class="aparecer_08">AllCssMaf</h1>
+    <a href="">Git-Hub</a>
+    <a href="" class="linkPrincipal centraliza">
+        <span>Linkedin</span>
+        <img src="assets/icons/linkedin.png" alt="">
+    </a>
+</nav>
+
+*/

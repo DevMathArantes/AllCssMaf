@@ -1,4 +1,4 @@
-/*Divisão completando a página*/
+/*Página sem rolamento*/
 .pagina{
     height: 100vh;
     width: 100%;
@@ -16,6 +16,28 @@
     justify-content: center;
 }
 
-@media screen and (min-width: 724px){
+/*Faz um botão aberto/fechado para um menu usando uma checkbox*/
+.abrirMenuOculto{
+    display: none;
+}
+.abrirMenuOculto:checked + .btnAbrirMenuOculto + .menuOculto{
+    display: flex;
+}
+.abrirMenuOculto:checked + .btnAbrirMenuOculto{
+    filter: brightness(1);
+    transition: 0.5s;
+}
+.btnAbrirMenuOculto{
+    filter: brightness(0.7);
+    transition: 0.5s;
+}
+.btnAbrirMenuOculto img{
+    width: 1.5em;
+}
+.menuOculto{
+    display: none;
+}
+
+@media screen and (max-width: 724px){
     
 }

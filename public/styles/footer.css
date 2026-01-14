@@ -16,22 +16,9 @@ footer h2{
 }
 footer a{
     color: var(--branco);
-    background-image: url(../assets/icons/linkBranco.png);
-    background-size: 1em;
     padding: 1em 2.5em;
-    background-repeat: no-repeat;
-    background-position: 1em;
+    gap: 1em;
 }
-
-@media screen and (min-width: 724px){
-
-    footer a{  
-        filter: brightness(0.7);
-        transition: 1s;
-    }
-    footer a:hover{
-        filter: brightness(1);
-        transition: 1s;
-    }
-
+footer a img{
+    width: 1.5em;
 }

@@ -72,3 +72,32 @@
     }
 
 }
+
+/*
+
+Exemplo de HTML: 
+
+<div class="apresentar">
+
+    <div class="centraliza">
+        <img src="assets/icons/logo.png" alt="logo ACM">
+        <h2>
+            Descubra seu <br>
+            <text>Potencial Digital</text>
+        </h2>
+    </div>
+
+    <p>Utilize nossas classes a vontade !</p>
+    
+    <a href="pages/classes.html" class="centraliza linkPrincipal">
+        <img src="assets/icons/link.png" alt="icons link">
+        <span>Ver Classes</span>
+    </a>
+    <a href="" class="centraliza">
+        <img src="assets/icons/instagram.png" alt="icone instagram">
+        Siga nossa página
+    </a>
+
+</div>
+
+*/
