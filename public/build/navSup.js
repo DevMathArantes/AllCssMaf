@@ -29,7 +29,7 @@ export function buildNavSup(){
             </ul>
 
             <h1>AllCssMaf</h1>
-            <a href="../index.html" class="centraliza">
+            <a href="classes.html" class="centraliza">
                 <span>Voltar</span>
             </a>
         `;

@@ -1,6 +1,6 @@
 /*Nav na parte superior da tela com menu hamburguer, título e 1 link isolado*/
 .navSuperior{
-    background-image: var(--gradientePrincipal);
+    background-image: var(--gradienteReverso);
     display: flex;
     align-items: center;
     padding: 0.5em 2em;

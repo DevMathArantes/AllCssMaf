@@ -21,6 +21,7 @@
     --principalEscura: #1a1a1a;
     --principalClara: #5e5e5e;
     --gradientePrincipal: linear-gradient(to bottom, var(--principal), var(--principalEscura));
+    --gradienteReverso: linear-gradient(to top, var(--principal), var(--principalEscura));
 
     /*Fonts*/
     --fontEspecial: "Montserrat", sans-serif;

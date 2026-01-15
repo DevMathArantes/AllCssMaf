@@ -22,3 +22,6 @@ footer a{
 footer a img{
     width: 1.5em;
 }
+footer h2, footer a, footer p{
+    animation: aparecer 0.3s ease-out forwards;
+}
