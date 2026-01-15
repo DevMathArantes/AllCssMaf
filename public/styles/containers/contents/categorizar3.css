@@ -1,16 +1,13 @@
+/*Cria uma section com 3 temas*/
 .categorizar3{
     width: 100%;
     gap: 1em;
     padding: 2em 0.5em;
 }
-
 .categorizar3 a{
     position: relative;
     width: 30%;
-    height: 15em;
-    box-shadow: 2px 2px 4px var(--cinza);
-    background-size: cover;
-    border-radius: 10px;
+    animation: aparecer 1s ease-out forwards;
 }
 .categorizar3 h2{
     color: var(--branco);
@@ -22,4 +19,52 @@
 }
 .categorizar3 img{
     width: 8em;
+    position: absolute;
 }
+.categorizar3 .fundo{
+    width: 100%;
+    height: 15em;
+    position: relative;
+    filter: brightness(0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px var(--cinza);
+}
+
+@media screen and (max-width: 724px){
+
+    .categorizar3 h2{
+        font-size: 0.8rem;
+    }
+    .categorizar3 img{
+        width: 5em;
+    }
+
+}
+
+/*
+
+Exemplo de HTML
+
+<section class="categorizar3 centraliza">
+
+    <a class="centraliza" href="forms.html">
+        <img class="fundo" src="../assets/images/formulario.png" alt="imagem de fundo">
+        <img src="../assets/icons/formularios.png" alt="icone formulário">
+        <h2>Forms</h2>
+    </a>
+
+    <a class="centraliza" href="navs.html">
+        <img class="fundo" src="../assets/images/pastas.png" alt="imagem de fundo">
+        <img src="../assets/icons/navBar.png" alt="icone nav">
+        <h2>Navs</h2>
+    </a>
+
+    <a class="centraliza" href="products.html">
+        <img class="fundo" src="../assets/images/produtos.png" alt="imagem de fundo">
+        <img src="../assets/icons/products.png" alt="icone produtos">
+        <h2>Products</h2>
+    </a>
+
+</section>
+
+*/

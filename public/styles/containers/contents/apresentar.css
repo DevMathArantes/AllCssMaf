@@ -1,3 +1,4 @@
+/*Classe para título com imagem, descrição e 2 links (1 principal e 1 secundário)*/
 .apresentar{
     display: flex;
     flex-direction: column;

@@ -1,3 +1,4 @@
+/*Nav na parte superior da tela com menu hamburguer, título e 1 link isolado*/
 .navSuperior{
     background-image: var(--gradientePrincipal);
     display: flex;
