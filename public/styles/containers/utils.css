@@ -8,6 +8,14 @@
     display: flex;
     flex-direction: column;
 }
+.pagina .voltar{
+    color: var(--branco);
+    gap: 0.5em;
+    animation: aparecer 0.3s ease-out forwards;
+}
+.pagina .voltar img{
+    width: 1em;
+}
 
 /*Centralizar elementos-filho*/
 .centraliza{
@@ -38,6 +46,37 @@
     display: none;
 }
 
+/*Leva o elemento para o canto superior esquerdo*/
+.topLeft{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+}
+
+/*Tamanhos para inputs*/
+.input_90{
+    width: calc(90% + 1em);
+}
+.input_80{
+    width: 80%;
+}
+.input_70{
+    width: 70%;
+}
+.input_45{
+    width: 45%;
+}
+.input_20{
+    width: 20%;
+}
+.input_10{
+    width: 10%;
+}
+
 @media screen and (max-width: 724px){
     
+    .input_90, .input_80, .input_70, .input_45, .input_20, .input_10{
+        width: 90%;
+    }
+
 }

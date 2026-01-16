@@ -5,16 +5,16 @@
     flex-flow: row wrap;
 }
 .nav5 h2{
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 100;
+    font-size: 0.8rem;
     width: 100%;
     display: flex;
-    gap: 1em;
+    gap: 0.5em;
     align-items: center;
-    padding: 0 1em;
+    padding: 0 2em;
 }
 .nav5 h2 img{
-    width: 2em;
+    width: 1.5em;
 }
 .nav5 ul{
     width: 100%;
@@ -62,8 +62,40 @@
     .nav5 ul a span{
         display: none;
     }
-    .nav5 ul a img{
-        width: 2em;
-    }
 
 }
+
+/*
+
+Exemplo de HTML
+
+<nav class="nav5 centraliza">
+    <h2>
+        <img src="../assets/icons/formPd.png" alt="icone formulário">
+        Página única
+    </h2>
+    <ul>
+        <a href="formularios/pagUnPd.html" class="centraliza">
+            <img src="../assets/icons/formularios.png" alt="icone formulário">
+            <span>Padrão</span>
+        </a>
+        <a href="" class="centraliza">
+            <img src="../assets/icons/formMetade.png" alt="icone formulário">
+            <span>Meio a Meio</span>
+        </a>
+        <a href="" class="centraliza">
+            <img src="../assets/icons/emBreve.png" alt="icone em breve">
+            <span>Em Breve...</span>
+        </a>
+        <a href="" class="centraliza">
+            <img src="../assets/icons/emBreve.png" alt="icone em breve">
+            <span>Em Breve...</span>
+        </a>
+        <a href="" class="centraliza">
+            <img src="../assets/icons/emBreve.png" alt="icone em breve">
+            <span>Em Breve...</span>
+        </a>
+    </ul>
+</nav>
+
+*/
