@@ -14,6 +14,7 @@
 
 /*Containers de animações*/
 @import url(containers/animations/aparecer.css);
+@import url(containers/animations/input.css);
 
 /*Containers de formulários*/
 @import url(containers/forms/completo.css);

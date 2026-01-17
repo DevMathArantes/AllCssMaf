@@ -1,37 +1,53 @@
 .formCompleto{
     flex-flow: row wrap;
     width: 90%;
-    max-width: 50em;
+    max-width: 35em;
     gap: 1em;
+    background-color: var(--principalEscura);
+    padding: 2em 1em;
+    border-radius: 10px;
 }
 .formCompleto h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     gap: 0.5em;
     color: var(--branco);
     font-weight: 300;
+    margin: 0;
 }
 .formCompleto h2 img{
     width: 1em;
 }
 .formCompleto p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--branco);
     gap: 0.5em;
     width: 90%;
+    margin: 0.5em 0;
 }
 .formCompleto img{
     width: 2.5em;
 }
 .formCompleto input{
     background-color: transparent;
-    border: 1px solid var(--branco);
-    padding: 0.5em;
+    border: 1px solid var(--principalClara);
+    padding: 1em;
     border-radius: 5px;
 }
-.formCompleto input[type="submit"]{
-    background-color: var(--principalClara);
+.formCompleto button{
+    background-color: var(--principal);
     border: none;
     padding: 1em;
     color: var(--branco);
-    font-size: 1rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    gap: 1em;
+}
+.formCompleto button:hover{
+    background-color: var(--principalClara);
+}
+.formCompleto button img{
+    width: 1.4em;
+}
+.formCompleto a{
+    color: var(--branco);
 }

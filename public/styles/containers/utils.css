@@ -57,9 +57,6 @@
 .input_90{
     width: calc(90% + 1em);
 }
-.input_80{
-    width: 80%;
-}
 .input_70{
     width: 70%;
 }
@@ -69,13 +66,10 @@
 .input_20{
     width: 20%;
 }
-.input_10{
-    width: 10%;
-}
 
 @media screen and (max-width: 724px){
     
-    .input_90, .input_80, .input_70, .input_45, .input_20, .input_10{
+    .input_90, .input_70, .input_45, .input_20{
         width: 90%;
     }
 
