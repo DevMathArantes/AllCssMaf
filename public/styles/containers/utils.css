@@ -49,8 +49,8 @@
 /*Leva o elemento para o canto superior esquerdo*/
 .topLeft{
     position: fixed;
-    top: 1em;
-    left: 1em;
+    top: 2em;
+    left: 2em;
 }
 
 /*Tamanhos para inputs*/
@@ -68,9 +68,9 @@
 }
 
 @media screen and (max-width: 724px){
-    
-    .input_90, .input_70, .input_45, .input_20{
-        width: 90%;
+
+    .pagina .voltar{
+        font-size: 0.8rem;
     }
 
 }

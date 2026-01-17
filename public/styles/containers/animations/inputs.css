@@ -1,0 +1,59 @@
+.animaInput{
+    position: relative;
+    animation: aparecer 1s ease-out forwards;
+}
+.animaInput label{
+    position: absolute;
+    left: 1em;
+    top: 1.2em;
+    transition: all 0.2s;
+    font-weight: 300;
+    padding: 0 0.2em;
+    background-color: var(--principalEscura);
+    z-index: 1;
+    user-select: none;
+    color: var(--branco);
+}
+.animaInput input{
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid var(--principal);
+    color: var(--branco);
+    width: 100%;
+    outline: none;
+    transition: all 0.3s;
+}
+.animaInput input:focus{
+    border: 1px solid var(--principalClara);
+}
+.animaInput input:focus + label{
+    top: -0.5em;
+    color: var(--principalClara);
+    font-size: 0.8rem;
+}
+.animaInput input::placeholder{
+    opacity: 0;
+    transition: all 0.3s;
+}
+.animaInput input:focus::placeholder{
+    opacity: 1;
+}
+.animaInput input:not(:placeholder-shown) + label{
+    top: -10px;
+}
+
+@media screen and (max-width: 724px){
+
+    .animaInput input{
+        font-size: 0.7rem;
+    }
+    .animaInput label{
+        font-size: 0.7rem;
+    }
+    .animaInput input:focus + label{
+        font-size: 0.6rem;
+    }
+
+}

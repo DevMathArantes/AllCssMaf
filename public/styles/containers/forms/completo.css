@@ -27,12 +27,6 @@
 .formCompleto img{
     width: 2.5em;
 }
-.formCompleto input{
-    background-color: transparent;
-    border: 1px solid var(--principalClara);
-    padding: 1em;
-    border-radius: 5px;
-}
 .formCompleto button{
     background-color: var(--principal);
     border: none;
@@ -41,8 +35,10 @@
     font-size: 0.8rem;
     border-radius: 5px;
     gap: 1em;
+    transition: 1s;
 }
 .formCompleto button:hover{
+    transition: 1s;
     background-color: var(--principalClara);
 }
 .formCompleto button img{
@@ -50,4 +46,24 @@
 }
 .formCompleto a{
     color: var(--branco);
+}
+.formCompleto a, .formCompleto button, .formCompleto p, .formCompleto h2{
+    animation: aparecer 1s ease-out forwards;
+}
+
+@media screen and (max-width: 724px){
+
+    .formCompleto{
+        padding: 1em;
+    }
+    .formCompleto h2{
+        font-size: 1rem;
+    }
+    .formCompleto p{
+        font-size: 0.7rem;
+    }
+    .formCompleto a{
+        font-size: 0.8rem;
+    }
+
 }
