@@ -11,18 +11,20 @@
 /*Variáveis*/
 :root{
 
-    /*Cores*/
+    /*Cor de fundo da página*/
+    --corFundo: #f8f8f8;
 
-    --branco: #ffffff;
-    --preto: #000000;
-    --cinza: #b9b9b9; 
+    /*Cor Principal*/
+    --corPrincipal: #0f0f0f;
+    --corPrincipalClara: #5f5f5f;
+    
+    /*Cor Secundária*/
+    --corSecundaria: #f8f8f8;
 
-    --principal: #313131;
-    --principalEscura: #1a1a1a;
-    --principalClara: #5e5e5e;
-    --gradientePrincipal: linear-gradient(to bottom, var(--principal), var(--principalEscura));
-    --gradienteReverso: linear-gradient(to top, var(--principal), var(--principalEscura));
-
+    /*Cores das letras*/
+    --txtClaro: #f8f8f8;
+    --txtEscuro: #0f0f0f;
+    
     /*Fonts*/
     --fontEspecial: "Montserrat", sans-serif;
     --fontTitulos: "Krona One", sans-serif;
@@ -36,9 +38,12 @@
 }
 body{
     margin: 0;
+    min-height: 100vh;
+    background-color: var(--corFundo);
 }
 h1, h2, h3, h4, h5, h6{
     font-family: var(--fontTitulos);
+    font-weight: 500;
 }
 p, input, select, li{
     font-family: var(--fontPadrao);

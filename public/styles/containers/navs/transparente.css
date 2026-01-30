@@ -1,0 +1,62 @@
+/*Nav com fundo transparente, feita para organizar itens (letras na cor clara*/
+.nav-transparente{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    padding: 0.5em 1em;
+    color: var(--txtClaro);
+    animation: aparecer 0.7s ease-out forwards;
+}
+.nav-transparente h1{
+    margin-right: auto;
+}
+.nav-transparente ul{
+    padding: 0;
+    gap: 3em;
+}
+.nav-transparente a{
+    color: var(--txtClaro);
+    gap: 1em;
+}
+.nav-transparente a img{
+    width: 1.5em;
+}
+.nav-transparente .logo{
+    width: 2em;
+}
+.nav-transparente .linkPrincipal{
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px var(--corSecundaria);
+    transition: 1s;
+}
+.nav-transparente .linkPrincipal:hover{
+    transition: 1s;
+    background-color: var(--corPrincipalClara);
+}
+
+@media screen and (max-width: 724px){
+
+    .nav-transparente{
+        gap: 0.5em;
+    }
+    .nav-transparente h1{
+        font-size: 0.8rem;
+    }
+    .nav-transparente ul{
+        gap: 1em;
+    }
+    .nav-transparente a{
+        font-size: 0.8rem;
+    }
+    .nav-transparente a span{
+        display: none;
+    }
+    .nav-transparente a img{
+        width: 2em;
+    }
+    .nav-transparente .logo{
+        width: 1.5em;
+    }
+
+}

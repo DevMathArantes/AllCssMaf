@@ -1,70 +1,8 @@
-/*Página sem rolamento*/
-.pagina{
-    height: 100vh;
-    width: 100%;
-    background-image: url(../../assets/images/fundoPagUn.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-}
-.pagina .voltar{
-    color: var(--branco);
-    gap: 0.5em;
-    animation: aparecer 0.3s ease-out forwards;
-}
-.pagina .voltar img{
-    width: 1em;
-}
-
 /*Centralizar elementos-filho*/
 .centraliza{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/*Faz um botão aberto/fechado para um menu usando uma checkbox*/
-.abrirMenuOculto{
-    display: none;
-}
-.abrirMenuOculto:checked + .btnAbrirMenuOculto + .menuOculto{
-    display: flex;
-}
-.abrirMenuOculto:checked + .btnAbrirMenuOculto{
-    filter: brightness(1);
-    transition: 0.5s;
-}
-.btnAbrirMenuOculto{
-    filter: brightness(0.7);
-    transition: 0.5s;
-}
-.btnAbrirMenuOculto img{
-    width: 1.5em;
-}
-.menuOculto{
-    display: none;
-}
-
-/*Leva o elemento para o canto superior esquerdo*/
-.topLeft{
-    position: fixed;
-    top: 2em;
-    left: 2em;
-}
-
-/*Tamanhos para inputs*/
-.input_90{
-    width: calc(90% + 1em);
-}
-.input_70{
-    width: 70%;
-}
-.input_45{
-    width: 45%;
-}
-.input_20{
-    width: 20%;
 }
 
 @media screen and (max-width: 724px){

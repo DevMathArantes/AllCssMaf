@@ -4,9 +4,7 @@
 @import url(containers/utils.css);
 
 /*Containers de navs*/
-@import url(containers/navs/comum.css);
-@import url(containers/navs/superior.css);
-@import url(containers/navs/nav5.css);
+@import url(containers/navs/transparente.css);
 
 /*Containers de estruturas*/
 @import url(containers/contents/apresentar.css);
@@ -18,3 +16,6 @@
 
 /*Containers de formulários*/
 @import url(containers/forms/completo.css);
+
+/*Containers de fundos*/
+@import url(containers/fundos/estatico.css);

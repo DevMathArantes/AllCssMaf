@@ -1,0 +1,11 @@
+/*Fundo para preencher página completa*/
+.fundo-estatico{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+/*HTML: basta chamar uma tag <img> na página desejada e atribuir a classe*/
