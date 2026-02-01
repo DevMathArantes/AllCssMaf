@@ -19,3 +19,7 @@
 
 /*Containers de fundos*/
 @import url(containers/fundos/estatico.css);
+
+main{
+    flex-direction: column;
+}

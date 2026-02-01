@@ -5,7 +5,7 @@ footer{
     flex-direction: column;
     align-items: center;
     color: var(--branco);
-    background-image: var(--gradientePrincipal);
+    background-color: var(--corPrincipal);
 }
 footer h2{
     border: 2px solid var(--branco);

@@ -11,6 +11,9 @@
 /*Variáveis*/
 :root{
 
+    /*Cores fixas*/
+    --branco: #ffffff;
+
     /*Cor de fundo da página*/
     --corFundo: #f8f8f8;
 
