@@ -12,6 +12,10 @@
     max-width: 100%;
 }
 
+/*Adiciona cor de fundo ao elemento desejado*/
+.fundo{
+    background-color: var(--corFundo);
+}
 
 @media screen and (max-width: 724px){
 

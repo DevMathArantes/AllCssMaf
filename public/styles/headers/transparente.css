@@ -1,0 +1,32 @@
+/*Header sem fundo, não recomendado para fundos claros*/
+.header-transparente{
+    flex-direction: column;
+    padding: 5em 1em;
+    color: var(--branco);
+    text-align: center;
+    animation: aparecer 0.7s ease-out forwards;
+}
+.header-transparente img{
+    width: 5em;
+    margin: 1em;
+}
+.header-transparente h1{
+    font-size: 3rem;
+    margin: 0;
+}
+.header-transparente p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+/*
+
+HTML: 
+
+<header class="header-transparente centraliza">
+    <img src="../assets/icons/logo.png" alt="icone logo">
+    <h1>AllCssMaf</h1>
+    <p>Estilos pré-montados para uso geral no front-end de projetos.</p>
+</header>
+
+*/

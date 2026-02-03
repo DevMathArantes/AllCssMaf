@@ -8,7 +8,7 @@
 
 /*Containers de estruturas*/
 @import url(containers/contents/apresentar.css);
-@import url(containers/contents/categorizar3.css);
+@import url(containers/contents/blocos.css);
 
 /*Containers de animações*/
 @import url(containers/animations/aparecer.css);

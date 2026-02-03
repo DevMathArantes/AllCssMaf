@@ -3,7 +3,7 @@
     flex-flow: row wrap;
     gap: 2em;
     color: var(--txtClaro);
-    animation: aparecer 1s ease-out forwards;
+    animation: aparecer 0.5s ease-out forwards;
 }
 .contents-apresentar .imgPrincipal{
     width: 8em;
